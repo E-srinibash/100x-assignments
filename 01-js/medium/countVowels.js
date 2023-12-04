@@ -7,6 +7,16 @@
 
 function countVowels(str) {
     // Your code here
+    let count=0;
+    str = str.toLowerCase();
+    for(let j=0;j<str.length;j++){
+      let i = str.charAt(j);
+      if(i==="a"||i==="e"||i==="i"||i==="o"||i==="u")
+      count++;
+    }
+    console.log(count);
 }
 
+// console.log(countVowels("HelloWorld"));
+countVowels("Hello World You freaks");
 module.exports = countVowels;

@@ -3,7 +3,7 @@ function counter()
 {
    count++;
    console.log(count);
-   if(count<10)
+   if(true)
    {setTimeout(counter ,1000);}
 
 }

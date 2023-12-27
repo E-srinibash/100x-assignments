@@ -17,6 +17,5 @@ function countVowels(str) {
     console.log(count);
 }
 
-// console.log(countVowels("HelloWorld"));
-countVowels("Hello World You freaks");
+
 module.exports = countVowels;

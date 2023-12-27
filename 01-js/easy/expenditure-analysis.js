@@ -38,7 +38,7 @@ const transactions = [
   { itemName: "Headphones", category: "Accessories", price: 25.0, timestamp: "2022-01-06T00:00:00Z" }
 ];
 
-const result = calculateTotalSpentByCategory(transactions);
-console.log(result);
+calculateTotalSpentByCategory(transactions);
+
 
 module.exports = calculateTotalSpentByCategory;
